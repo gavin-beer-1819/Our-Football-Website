@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Alumni</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="container">
+  <div class="tutorial">
+    <ul>
+      <a href="index.html"><li>Home</li></a>
+      <a href="roster.html"><li>Roster</li></a>
+      <a href=""><li>Seasons <i class="fa fa-angle-down"></i></a>
+        <ul>
+          <a href=""><li>2018</li></a>
+          <a href="lastyear.html"><li>2017</li></a>
+        </ul>
+      </li>
+      <a href="calendar.html"><li>Calendar</li></a>
+      <a href="alumni.html"><li>Alumni</li></a>
+      <a href="#donatelinkhere"><li>DONATE</li></a>
+    </ul>
+  </div>
+</div>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <div class="slideshow-container" style="text-align:center">
+
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="JohnBledsoe.JPG" style="width:80%">
+      <div class="text">John Bledsoe: 2017 SHS Grad</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="SeanKent_1.jpg" style="width: 80%; object-fit:cover;">
+      <div class="text">Sean Kent: 2016 SHS Grad</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="CamMccormick.JPG" style="width:80%">
+      <div class="text">Cam McCormick: 2016 SHS Grad</div>
+    </div>
+
+  </div>
+  <br>
+
+
+  <h1>Alumni</h1>
+  <br><br>
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 5000); // Change image every 5 seconds
+    }
+  </script>
+
+  <div class="separatebox">
+    <h3 style="font-size: 30px;color: black"><b>Graduating Class of 2018</b></div></h3>
+    <div class="separatebox">
+      <table class="alumn">
+        <tr>
+          <th colspan="3"><u>Player</u></th>
+          <th colspan="4"><u>School Name</u></th>
+        </tr>
+        <tr>
+          <td colspan="3">Ben Graziani</td>
+          <td colspan="4">Southern Oregon University</td>
+        </tr>
+        <tr>
+          <td colspan="3">Cian Marderos</td>
+          <td colspan="4">Endicott College</td>
+        </tr>
+        <tr>
+          <td colspan="3">Noah Turnbull</td>
+          <td colspan="4">Southern Oregon University
+            <td>
+        </tr>
+      </table>
+    </div>
+    <br><br>
+    <div class="separatebox">
+      <h3 style="font-size: 30px;color: black"><b>Graduating Class of 2017</b></h3></div>
+    <div class="separatebox">
+      <table class="alumn">
+        <tr>
+          <th colspan="3"><u>Player</u></th>
+          <th colspan="4"><u>School Name</u></th>
+        </tr>
+        <tr>
+          <td colspan="3">John Bledsoe</td>
+          <td colspan="4">Washington State University</td>
+        </tr>
+        <tr>
+          <td colspan="3">Braden Durfee</td>
+          <td colspan="4">Oregon State University</td>
+        </tr>
+        <tr>
+          <td colspan="3">Dawson Ruhl</td>
+          <td colspan="4">Linfield College
+            <td>
+        </tr>
+        <tr>
+          <td colspan="3">Casey Weaver</td>
+          <td colspan="4">Linfield College
+            <td>
+        </tr>
+      </table>
+    </div>
+
+    <br><br>
+    <div class="separatebox">
+      <h3 style="font-size: 30px;color: black"><b>Graduating Class of 2016</b></h3></div>
+    <div class="separatebox">
+      <table class="alumn">
+        <tr>
+          <th colspan="3"><u>Player</u></th>
+          <th colspan="4"><u>School Name</u></th>
+        </tr>
+        <tr>
+          <td colspan="3">Sean Kent</td>
+          <td colspan="4">Massachusetts Institute of Technology</td>
+        </tr>
+        <tr>
+          <td colspan="3">Cam McCormick</td>
+          <td colspan="4">University of Oregon</td>
+        </tr>
+        <tr>
+          <td colspan="3">Jacob Thompson</td>
+          <td colspan="4">Northern Arizona University
+            <td>
+        </tr>
+        <tr>
+          <td colspan="3">Noah Yunker</td>
+          <td colspan="4">Portland State University
+            <td>
+        </tr>
+      </table>
+    </div>
+    <br><br>
+    <div class="separatebox">
+      <h3 style="font-size: 30px;color: black"><b>Graduating Before 2016</b></h3></div>
+    <div class="separatebox">
+      <table class="alumn">
+        <tr>
+          <th><u>Year Graduated</u></th>
+          <th colspan="3">
+            <u>Player</u>
+          </th>
+          <th colspan="4"><u>School Name</u></th>
+        </tr>
+        <tr>
+          <td>2014</td>
+          <td colspan="3">Blake Garrison</td>
+          <td colspan="4">Lewis and Clark College</td>
+        </tr>
+        <tr>
+          <td>2013</td>
+          <td colspan="3">Kyle Connors</td>
+          <td colspan="4">Central Washington University</td>
+        </tr>
+        <tr>
+          <td>2013</td>
+          <td colspan="3">Jake Munsell</td>
+          <td colspan="4">George Fox University
+            <td>
+        </tr>
+        <tr>
+          <td>2006</td>
+          <td colspan="3">Jake Hermeling</td>
+          <td colspan="4">Oregon State University
+            <td>
+        </tr>
+        <tr>
+          <td>2005</td>
+          <td colspan="3">John Torsey</td>
+          <td colspan="4">Linfield College
+            <td>
+        </tr>
+        <tr>
+          <td>2005</td>
+          <td colspan="3">Justin Valley</td>
+          <td colspan="4">Linfield College
+            <td>
+        </tr>
+        <tr>
+          <td>2004</td>
+          <td colspan="3">Eric Elshire</td>
+          <td colspan="4">University of Oregon
+            <td>
+        </tr>
+      </table>
+    </div>
+    <br><br>
+  </div>
+
+
+
+
+  <!--Footer-->
+  <div class="footer-main">
+    <div class="foot-seg">
+      <h2>Summit High School Football</h2>
+      <p class="para">If this information is outdated, go to the <a class="osaalink" href="http://www.osaa.org/teams/20089" target="_blank">OSAA Website</a></p>
+    </div>
+    <div class="foot-seg">
+      <table class="emails">
+        <tr>
+          <th>Coach</th>
+          <th>Athletic Director</th>
+          <th>Activities Director</th>
+          <th>Athletics Secretary</th>
+        </tr>
+        <tr>
+          <th>Corben Hyatt</th>
+          <th>Mike Carpenter</th>
+          <th>Sarah Warsaw</th>
+          <th>Stacey Hager</th>
+        </tr>
+        <tr>
+          <td class="p"><a href="mailto:coachchyatt@gmail.com"> coachhchyatt@gmail.com</a></td>
+          <td class="p"><a href="mailto:mike.carpenter@bend.k12.or.us">mike.carpenter@bend.k12.or.us</a></td>
+          <td class="p"><a href="mailto:sarah.warsaw@bend.k12.or.us">sarah.warsaw@bend.k12.or.us</a></td>
+          <td class="p"><a href=" mailto:stacey.hager@bend.k12.or.us">stacey.hager@bend.k12.or.us</a></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="a">541-355-4102</td>
+          <td class="a">541-355-4103</td>
+          <td class="a">541-355-4101</td>
+      </table>
+    </div>
+    <div class="foot-seg">
+      <p></p>
+    </div>
+    <div class="foot-seg">
+      <div id="summitlogo">
+        <a href="https://www.bend.k12.or.us/summit" target="_blank"><img src="summit-logosmall.png"></a></div>
+    </div>
+  </div>
+</body>
+
+</html>

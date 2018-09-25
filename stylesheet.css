@@ -1,0 +1,386 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.tutorial {
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin-bottom: 50px;
+  margin-top: -80px;
+}
+.tutorial .information {
+  width: 100%;
+  padding: 20px 50px;
+  margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+.tutorial .information h1 {
+  color: #333;
+  font-size: 1.5rem;
+  padding: 0px 10px;
+  border-left: 3px solid #F03861;
+}
+.tutorial .information h3 {
+  color: #e0e0e0;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0px 10px;
+  border-left: 3px solid #F03861;
+}
+.tutorial .information p {
+  padding: 10px 0px;
+}
+.tutorial ul {
+  font-size: 0;
+  list-style-type: none;
+}
+.tutorial ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #333;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+}
+.tutorial ul li ul {
+  display: none;
+}
+.tutorial ul li:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+.tutorial ul li:hover ul {
+  display: block;
+  margin-top: 15px;
+  width: 200px;
+  left: 0;
+  position: absolute;
+}
+.tutorial ul li:hover ul li {
+  display: block;
+  background-color: #e7e7e7;
+}
+.tutorial ul li:hover ul li span {
+  float: right;
+  color: #f9f9f9;
+  background-color: #F03861;
+  padding: 2px 5px;
+  text-align: center;
+  font-size: .8rem;
+  border-radius: 3px;
+}
+.tutorial ul li:hover ul li:hover {
+  background-color: #e0e0e0;
+}
+.tutorial ul li:hover ul li:hover span {
+  background-color: #ee204e;
+}
+
+
+
+
+/*Setting the font style*/
+@font-face {
+  font-family: "footballfont";
+  src: url('summit.ttf');
+
+}
+/*------------body styling----------*/
+body {
+  font-family: "High School USA", sans-serif;
+  background-color: #7a7a7a;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  padding-top: 80px;
+  text-align: center;
+  margin: 0;
+}
+/*-------------End body------------*/
+
+
+/*---------Image styling-----------*/
+img.logo {
+  float:center;
+  width:100px;
+  length:100px;
+  position:fixed;
+  left: calc(50% - 50px);
+  top:0px;
+  z-index:10;
+}
+
+.player_picture {
+ width:20em
+}
+
+
+figure img {
+  display: run-in;
+  margin-left: 90px;
+  margin-right: 30px;
+  width: 80%;
+  height: 40%;
+}
+figure figcaption{
+  display: inline;
+  text-align: center;
+}
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure figcaption {
+  display: block;
+  text-align: center;
+}
+figure img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure figcaption {
+  display:block;
+  text-align: center;
+}
+/*---------------End image style---------------*/
+
+/*-----------Overall text styling----------*/
+
+h1 {
+  font-family: "footballfont";
+  color: #134100;
+  font-size: 70px;
+}
+
+h2 {
+  font-family: "footballfont";
+  color: #134100;
+  font-size: 30px;
+}
+h3 {
+  font-family: "footballfont";
+  color: #134100;
+  font-size: 22px;
+}
+.title {
+  margin-top: 7%;
+}
+/*------------End overall text styling-------------*/
+
+
+/*-----------Index-----------------*/
+.footballbio p{
+  font-weight: bold;
+  color: #1a5912;
+  font-size:  40px;
+  font-family: "High School USA";
+  text-align: center;
+}
+
+.footballbio2 p{
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+  font-size:  20px;
+  font-family: "High School USA";
+  text-align: center;
+}
+
+
+.wins {
+  font-family: "Trebuchet MS", Times, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width:100%;
+}
+.wins td {
+  color:white;
+  font-size: 60px;
+  font-family: "High School USA", sans-serif;
+  text-align: center;
+}
+.wins th {
+  color:#1a5912;
+  font-size: 30px;
+  font-family: "High School USA", sans-serif;
+  text-align: center;
+}
+
+.wins th.infoheader {
+  color: #1a5912;
+  font-size: 40px;
+  font-family: "High School USA", sans-serif;
+  text-align: center;
+}
+
+.wins td.infodata {
+  color: white;
+  font-size: 30px;
+  font-family: "High School USA", sans-serif;
+  text-align: center;
+}
+
+/*-----------End Index-----------*/
+
+
+/*-----------Gallery----------------*/
+#helmet {
+  width: 20em;
+}
+/*---------End Gallery-------------*/
+
+
+/*----------Coaches------------------*/
+
+.coaches p {
+  font-family: "footballfont";
+  font-size: 30px;
+  color: #134100;
+  padding: 0px;
+  text-decoration: underline;
+  text-style: bold;
+}
+
+.hyatt1 a:hover{
+  color: black;
+}
+
+.coaches h5 {
+  font-family: "footballfont";
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 20px;
+
+}
+/*---------End Coaches--------------*/
+
+
+/*----------Alumni-------------------*/
+.separatebox {
+  font-size: 30px;
+  background: rgba(96, 155, 91,.7);
+  font-family: "footballfont";
+  color: black;
+  display: block;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  width: 67%;
+}
+.separatebox th{
+  font-size: 30px;
+}
+
+.separatebox td{
+  font-size: 20px;
+}
+
+
+.separatebox table{
+  width: 100%;
+  text-align: center;
+  border-spacing: inherit;
+}
+
+.separatebox table th{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+}
+
+.separatebox table td{
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 20px;
+}
+.alumn{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*---------End Alumni-----------------*/
+
+
+/*-------------Footer---------------*/
+div.footer-main {
+  font-family: "footballfont";
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    background-color: #1a1a1a;
+  }
+
+div.foot-seg table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+div.foot-seg p, h2, a, a:visited{
+    color: rgb(96, 155, 91);
+  }
+
+div.foot-seg {
+    float: left;
+    width: 33.33%;
+  }
+
+.emails a:hover {
+  color:white;
+}
+
+.emails th {
+  color: white;
+  font-size: 15px;
+  font-family: "footballfont";
+  text-align: left;
+  margin-right: 4%;
+  }
+.emails td.a {
+  font-size: 12px;
+  color:#1a5912;
+  font-family: "footballfont";
+  text-align: left;
+  margin-right: 4%;
+}
+
+.emails td.p{
+  font-size: 12px;
+  color:#1a5912;
+  font-family: "footballfont";
+  text-align: left;
+  padding-right: 7%;
+}
+
+/*----------------End footer--------------*/
+
+
+
+
+
+#lastyear {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
